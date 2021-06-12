@@ -16,6 +16,6 @@ The analisys that is proposed here is aimed to market teams mainly in Mobile Ope
 
 Our data sources for the research we expose here are base on:
 
-* Previous/historical cell coverage data in the same urban areas, and statistic of number of susbcribers registered per hour.
-* Geospatial information if the place(s) selected for the analisys.
-* Database of businesses located in this area, clasified by category.
+* Previous/historical cell coverage data in the same urban areas (from https://opencellid.org), and statistic of number of susbcribers registered per hour (to identify).
+* Geospatial information for the place(s) selected for the analisys.
+* Database of businesses located in this area, clasified by category. Taken from Foursquare API.
