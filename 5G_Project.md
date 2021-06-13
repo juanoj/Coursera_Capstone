@@ -16,6 +16,12 @@ The analisys that is proposed here is aimed to market teams mainly in Mobile Ope
 
 Our data sources for the research we expose here are base on:
 
-* Previous/historical cell coverage data in the same urban areas (from https://opencellid.org), and statistic of number of susbcribers registered per hour (to identify).
-* Geospatial information for the place(s) selected for the analisys.
+* Previous/historical cell coverage data in the same urban areas (from https://opencellid.org), and statistic of most density areas of mobile users (taken as comparision of concentration/distribution of cells in a particular area).
+  
+  Over this link, it is attached the database fields present in the data that we require to identify cell sites including coverage in distance, ownership, latitude and longitude worldwide, opoen source information.
+  ![image](https://user-images.githubusercontent.com/65038782/121784127-bf8a7100-cb77-11eb-9e89-e477d9bed4a9.png)
+
 * Database of businesses located in this area, clasified by category. Taken from Foursquare API.
+  Sample of a JSON response of a venue information (includes, name, category, location, ratings, etc
+  ![image](https://user-images.githubusercontent.com/65038782/121815798-d0051f00-cc3d-11eb-8692-53c4350c8b11.png)
+
